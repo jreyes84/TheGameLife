@@ -20,6 +20,7 @@ NSInteger *stop;
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self buildPanel];
+    self.stopped = 0;
     //[startSimulation];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -88,7 +89,7 @@ NSInteger *stop;
 }
 
 - (IBAction)start:(id)sender {
-    [self proceso];
+    _time = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(proceso) userInfo:nil repeats:YES];
 }
 
 -(void)proceso{
@@ -216,8 +217,8 @@ NSInteger *stop;
                 if ([object isKindOfClass:[UIButton class]]) {
                     UIButton *btn = (UIButton*)object;
                     if (btn.tag == count) {
-                        [btn setTitle:[NSString stringWithFormat:@"%i",vals] forState:UIControlStateNormal];
-                        btn.selected =val;
+                                [btn setTitle:[NSString stringWithFormat:@"%i",vals] forState:UIControlStateNormal];
+                                btn.selected =val;
                     }
                 }
             }

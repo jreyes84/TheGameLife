@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E051835-F95A-4756-8437-0D44BD87C8F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheGameLife</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D9ADCC5B38F0BD85CE3B359E93D0461AFD4F4705</key>
+		<string>https://github.com/jreyes84/TheGameLife.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheGameLife.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D9ADCC5B38F0BD85CE3B359E93D0461AFD4F4705</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jreyes84/TheGameLife.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D9ADCC5B38F0BD85CE3B359E93D0461AFD4F4705</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D9ADCC5B38F0BD85CE3B359E93D0461AFD4F4705</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheGameLife</string>
+		</dict>
+	</array>
+</dict>
+</plist>

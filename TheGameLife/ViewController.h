@@ -13,7 +13,9 @@
 @property NSInteger varY;
 @property NSInteger varX;
 @property NSMutableArray *array;
+@property NSTimer *time;
 @property (weak, nonatomic) IBOutlet UIButton *start;
+@property NSInteger stopped;
 
 @end
 
